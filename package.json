@@ -1,0 +1,33 @@
+{
+  "name": "node-kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "DEBUG=kafka-node:*,my:* nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zclinp/node-kafka-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zclinp/node-kafka-example/issues"
+  },
+  "homepage": "https://github.com/zclinp/node-kafka-example#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "kafka-node": "^3.0.1",
+    "node-rdkafka": "^2.4.2",
+    "ramda": "^0.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
